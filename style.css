@@ -1,0 +1,38 @@
+body {
+    background-color: #f3870c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+* {
+    margin: auto, auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 1000px;
+    border: 3px solid rgb(230, 210, 39);
+    padding: 20px;
+    background: rgb(233, 236, 40);
+    border: radius 20px;
+
+
+}
+
+h2 {
+    text-align: center;
+    color: rgb(181, 16, 16);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 400px;
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+
+}

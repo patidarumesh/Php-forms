@@ -1,0 +1,188 @@
+/* navbar styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styles */
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    background-color: #d4ddf0;
+}
+
+.navbar {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    background-color: #052963;
+    /* change this to your preferred background color */
+    z-index: 999;
+    /* make sure the navbar is on top of other elements */
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-item {
+    float: right;
+}
+
+.menu-item a {
+    display: block;
+    color: #ffffff;
+    /* change this to your preferred text color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.img {
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+form {
+    max-width: 30%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 200px;
+    height: auto;
+
+}
+
+/* Label Styles */
+label {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Input Styles */
+input[type="varchar"],
+input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    background-color: rgb(231, 228, 228);
+    border-radius: 20px;
+    border: rgb(198, 182, 182) 1px solid;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+/* Button Styles */
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Error Message Styles */
+.error {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #042458;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+    /* Form Styles */
+    form {
+        max-width: 80%;
+    }
+
+    /* Input Styles */
+    input[type="varchar"],
+    input[type="password"] {
+        width: 65%;
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Header Styles */
+    h2 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    /* Image Styles */
+    img {
+        margin-top: 0px;
+    }
+
+    /* Form Styles */
+    form {
+        margin-top: 80px;
+        max-width: 80%;
+        padding: 10px;
+    }
+
+    /* Label Styles */
+    label {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    /* Input Styles */
+    input[type="varchar"],
+    input[type="password"] {
+        width: 65%;
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+    /* Button Styles */
+    button[type="submit"] {
+        padding: 8px 16px;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+
+    /* Error Message Styles */
+    .error {
+        font-size: 14px;
+    }
+}
