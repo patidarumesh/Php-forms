@@ -1,3 +1,2 @@
 # NEC
-
-Login part
+Login page for faculty
